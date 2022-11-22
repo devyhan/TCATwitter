@@ -20,6 +20,15 @@
 		1590DBA1292B588F004DCBB6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590DBA0292B588F004DCBB6 /* Home.swift */; };
 		1590DBA3292B5A95004DCBB6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590DBA2292B5A95004DCBB6 /* HomeView.swift */; };
 		1590DBA5292B63A1004DCBB6 /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590DBA4292B63A1004DCBB6 /* CoordinatorView.swift */; };
+		1590DBA7292C8588004DCBB6 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590DBA6292C8588004DCBB6 /* TabCoordinator.swift */; };
+		1590DBB1292C8BDD004DCBB6 /* HomeCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590DBB0292C8BDD004DCBB6 /* HomeCoordinatorView.swift */; };
+		1590DBB3292C8C2E004DCBB6 /* SearchCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590DBB2292C8C2E004DCBB6 /* SearchCoordinatorView.swift */; };
+		1590DBB5292C8C64004DCBB6 /* NoticeCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590DBB4292C8C64004DCBB6 /* NoticeCoordinatorView.swift */; };
+		1590DBB7292C8C8B004DCBB6 /* MessageCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590DBB6292C8C8B004DCBB6 /* MessageCoordinatorView.swift */; };
+		1590DBB9292C8CBD004DCBB6 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590DBB8292C8CBD004DCBB6 /* HomeCoordinator.swift */; };
+		1590DBBB292C8CE3004DCBB6 /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590DBBA292C8CE3004DCBB6 /* SearchCoordinator.swift */; };
+		1590DBBD292C8D02004DCBB6 /* NoticeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590DBBC292C8D02004DCBB6 /* NoticeCoordinator.swift */; };
+		1590DBBF292C8D1D004DCBB6 /* MessageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590DBBE292C8D1D004DCBB6 /* MessageCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +44,15 @@
 		1590DBA0292B588F004DCBB6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		1590DBA2292B5A95004DCBB6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1590DBA4292B63A1004DCBB6 /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
+		1590DBA6292C8588004DCBB6 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
+		1590DBB0292C8BDD004DCBB6 /* HomeCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorView.swift; sourceTree = "<group>"; };
+		1590DBB2292C8C2E004DCBB6 /* SearchCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoordinatorView.swift; sourceTree = "<group>"; };
+		1590DBB4292C8C64004DCBB6 /* NoticeCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeCoordinatorView.swift; sourceTree = "<group>"; };
+		1590DBB6292C8C8B004DCBB6 /* MessageCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCoordinatorView.swift; sourceTree = "<group>"; };
+		1590DBB8292C8CBD004DCBB6 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		1590DBBA292C8CE3004DCBB6 /* SearchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoordinator.swift; sourceTree = "<group>"; };
+		1590DBBC292C8D02004DCBB6 /* NoticeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeCoordinator.swift; sourceTree = "<group>"; };
+		1590DBBE292C8D1D004DCBB6 /* MessageCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,11 +88,16 @@
 		1590DB82292B5145004DCBB6 /* TCASample */ = {
 			isa = PBXGroup;
 			children = (
+				1590DBAB292C8BA4004DCBB6 /* Message */,
+				1590DBAA292C8BA1004DCBB6 /* Notice */,
+				1590DBA9292C8B9D004DCBB6 /* Search */,
+				1590DBA8292C8B99004DCBB6 /* Home */,
 				1590DBA2292B5A95004DCBB6 /* HomeView.swift */,
 				1590DB83292B5145004DCBB6 /* TCASampleApp.swift */,
 				1590DB9A292B52F7004DCBB6 /* Splash.swift */,
 				1590DB85292B5145004DCBB6 /* SplashView.swift */,
 				1590DB9C292B55CF004DCBB6 /* Coordinator.swift */,
+				1590DBA6292C8588004DCBB6 /* TabCoordinator.swift */,
 				1590DBA4292B63A1004DCBB6 /* CoordinatorView.swift */,
 				1590DB9E292B56A0004DCBB6 /* Screen.swift */,
 				1590DBA0292B588F004DCBB6 /* Home.swift */,
@@ -91,6 +114,74 @@
 				1590DB8B292B5147004DCBB6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1590DBA8292C8B99004DCBB6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1590DBAC292C8BB8004DCBB6 /* Coordinators */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1590DBA9292C8B9D004DCBB6 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				1590DBAD292C8BC4004DCBB6 /* Coordinators */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		1590DBAA292C8BA1004DCBB6 /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				1590DBAE292C8BC7004DCBB6 /* Coordinators */,
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
+		1590DBAB292C8BA4004DCBB6 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				1590DBAF292C8BC9004DCBB6 /* Coordinators */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		1590DBAC292C8BB8004DCBB6 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				1590DBB0292C8BDD004DCBB6 /* HomeCoordinatorView.swift */,
+				1590DBB8292C8CBD004DCBB6 /* HomeCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		1590DBAD292C8BC4004DCBB6 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				1590DBB2292C8C2E004DCBB6 /* SearchCoordinatorView.swift */,
+				1590DBBA292C8CE3004DCBB6 /* SearchCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		1590DBAE292C8BC7004DCBB6 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				1590DBB4292C8C64004DCBB6 /* NoticeCoordinatorView.swift */,
+				1590DBBC292C8D02004DCBB6 /* NoticeCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		1590DBAF292C8BC9004DCBB6 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				1590DBB6292C8C8B004DCBB6 /* MessageCoordinatorView.swift */,
+				1590DBBE292C8D1D004DCBB6 /* MessageCoordinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,13 +264,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				1590DB9F292B56A0004DCBB6 /* Screen.swift in Sources */,
+				1590DBBB292C8CE3004DCBB6 /* SearchCoordinator.swift in Sources */,
+				1590DBA7292C8588004DCBB6 /* TabCoordinator.swift in Sources */,
+				1590DBB3292C8C2E004DCBB6 /* SearchCoordinatorView.swift in Sources */,
+				1590DBB5292C8C64004DCBB6 /* NoticeCoordinatorView.swift in Sources */,
 				1590DBA3292B5A95004DCBB6 /* HomeView.swift in Sources */,
+				1590DBB9292C8CBD004DCBB6 /* HomeCoordinator.swift in Sources */,
 				1590DB9D292B55CF004DCBB6 /* Coordinator.swift in Sources */,
+				1590DBBD292C8D02004DCBB6 /* NoticeCoordinator.swift in Sources */,
+				1590DBB1292C8BDD004DCBB6 /* HomeCoordinatorView.swift in Sources */,
 				1590DB86292B5145004DCBB6 /* SplashView.swift in Sources */,
 				1590DB9B292B52F7004DCBB6 /* Splash.swift in Sources */,
+				1590DBB7292C8C8B004DCBB6 /* MessageCoordinatorView.swift in Sources */,
 				1590DBA1292B588F004DCBB6 /* Home.swift in Sources */,
 				1590DB84292B5145004DCBB6 /* TCASampleApp.swift in Sources */,
 				1590DBA5292B63A1004DCBB6 /* CoordinatorView.swift in Sources */,
+				1590DBBF292C8D1D004DCBB6 /* MessageCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +500,7 @@
 			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.46.0;
+				minimumVersion = 0.47.0;
 			};
 		};
 		1590DB97292B51B2004DCBB6 /* XCRemoteSwiftPackageReference "TCACoordinators" */ = {

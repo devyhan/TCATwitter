@@ -50,8 +50,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/pointfreeco/swift-composable-architecture.git",
       "state" : {
-        "revision" : "52dca7e5edd6ec9e0b529380843a8cb13f57d7d7",
-        "version" : "0.46.0"
+        "revision" : "0a1958115c05978478139105a67a556871ed8e1a",
+        "version" : "0.47.0"
       }
     },
     {
@@ -70,6 +70,15 @@
       "state" : {
         "revision" : "a08887de589e3829d488e0b4b707b2ca804b1060",
         "version" : "0.5.0"
+      }
+    },
+    {
+      "identity" : "swiftui-navigation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pointfreeco/swiftui-navigation",
+      "state" : {
+        "revision" : "8db42e81f62e131df71a8427c000b0ffbff6c1c2",
+        "version" : "0.4.1"
       }
     },
     {
